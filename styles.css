@@ -4,6 +4,7 @@ body, html{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-image:url(kebab2.webp)
 }
 
 .header{
@@ -32,27 +33,105 @@ body, html{
     top:15vh;
 }
 
-.mrkebab {
-    position:absolute;
-    top:40vh;
-    right:35vw;
-    height:60vh;
-    width:250vh;
+.mrkebab{
+height:60vh;
+width:250vh;
+position:absolute;
+top:40vh;
+right:30vw;
 }
 
 .divider{
     background-color:black;
+    height:0.5%;
+    width:100%;
     position:absolute;
     top:100vh;
-    right:0vw;
-    width:100%;
-    height:0.5%;
 }
+
 .divider2{
     background-color:black;
+    height:0.5%;
+    width:100%;
     position:absolute;
     top:200vh;
+}
+
+.history{
+    position:absolute;
+    top:110vh;
+    height:80vh;
+    right:5vw;
+}
+
+.historytxt{
+    position:absolute;
+    top:125vh;
+    height:80vh;
+    left:5vw;
+    width:50vw;
+    font-size:large;
+}
+.historytxt li{
+    margin-bottom:5vh;
+}
+.historytxt p{
+    font-weight:bold;
+    bottom:120%;
+    right:37%;
+    position:absolute;
+}
+
+.one{
+    position:absolute;
+    top:165vh;
+    right:80vw;
+    width:10vw;
+    transform:rotate(90deg);
+}
+
+.two{
+    position:absolute;
+    top:165vh;
+    right:50vw;
+    width:10vw;
+    transform:rotate(70deg);
+}
+
+.three{
+    position:absolute;
+    top:97vh;
+    right:80vw;
+    width:10vw;
+    transform:rotate(70deg);
+}
+
+.four{
+    position:absolute;
+    top:97vh;
+    right:50vw;
+    width:10vw;
+    transform:rotate(90deg);
+
+}
+
+.numero1{
+    position:absolute;
+    top:240vh;
+}
+.numero2{
+    position:absolute;
+    top:210vh;
+    right:30vw;
+}
+.numero3{
+    position:absolute;
+    top:240vh;
     right:0vw;
-    width:100%;
-    height:0.5%;
+}
+.gergerer{
+    position:absolute;
+    top:250vh;
+    right:25vw;
+    font-size:9vw;
 }
