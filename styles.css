@@ -55,7 +55,7 @@ right:30vw;
     height:0.5%;
     width:100%;
     position:absolute;
-    top:200vh;
+    top:210vh;
     margin-top:10px;
 }
 
@@ -103,24 +103,24 @@ right:30vw;
 
 .numero1{
     position:absolute;
-    top:280vh;
+    top:290vh;
     transform: translate(-0%, -50%) scale(1);
 }
 .numero2{
     position:absolute;
-    top:240vh;
+    top:250vh;
     right:0vw;
     transform: translate(-50%, -50%) scale(1);
 }
 .numero3{
     position:absolute;
-    top:280vh;
+    top:290vh;
     left:85vw;
     transform: translate(-50%, -50%) scale(1);
 }
 .gergerer{
     position:absolute;
-    top:270vh;
+    top:280vh;
     right:30vw;
     font-size:7vw;
 }
