@@ -47,6 +47,7 @@ right:30vw;
     width:100%;
     position:absolute;
     top:100vh;
+    margin-top:10px;
 }
 
 .divider2{
@@ -55,6 +56,7 @@ right:30vw;
     width:100%;
     position:absolute;
     top:200vh;
+    margin-top:10px;
 }
 
 .history{
@@ -84,29 +86,13 @@ right:30vw;
 
 .one{
     position:absolute;
-    top:165vh;
-    right:80vw;
-    width:10vw;
-    transform:rotate(90deg);
-}
-
-.two{
-    position:absolute;
-    top:165vh;
-    right:50vw;
-    width:10vw;
-    transform:rotate(70deg);
-}
-
-.three{
-    position:absolute;
     top:97vh;
     right:80vw;
     width:10vw;
     transform:rotate(70deg);
 }
 
-.four{
+.two{
     position:absolute;
     top:97vh;
     right:50vw;
@@ -117,21 +103,25 @@ right:30vw;
 
 .numero1{
     position:absolute;
-    top:240vh;
+    top:280vh;
+    transform: translate(-0%, -50%) scale(1);
 }
 .numero2{
     position:absolute;
-    top:210vh;
-    right:30vw;
+    top:240vh;
+    right:0vw;
+    transform: translate(-50%, -50%) scale(1);
 }
 .numero3{
     position:absolute;
-    top:240vh;
-    right:0vw;
+    top:280vh;
+    left:85vw;
+    transform: translate(-50%, -50%) scale(1);
 }
 .gergerer{
     position:absolute;
-    top:250vh;
-    right:25vw;
-    font-size:9vw;
+    top:270vh;
+    right:30vw;
+    font-size:7vw;
 }
+
